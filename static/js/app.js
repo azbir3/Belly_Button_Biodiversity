@@ -51,7 +51,7 @@ function buildCharts(sample) {
 
       const bubbleLayout = {
         title: "Sample Population",
-        xaxis: { title: "Sample ID" },
+        xaxis: { title: "OTU ID" },
         yaxis: { title: "Sample Value" },
         showlegend: false,
         margin: {t:30, l:250},
@@ -82,7 +82,7 @@ function buildCharts(sample) {
 
 // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
-    // https://plot.ly/javascript/gauge-charts/
+    // https://plot.ly/javascript/gauge-charts/ - pass
   });
   }
     
