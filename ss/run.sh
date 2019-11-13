@@ -1,1 +1,0 @@
-FLASK_APP=pbelly/app.py flask run
