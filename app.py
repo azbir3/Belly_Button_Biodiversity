@@ -22,7 +22,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db/bellybutton.sqlite"
 db = SQLAlchemy(app)
 
 # use SQLAlchemy 'crete_engine' to connet to the sqlite database
-engine = create_engine("sqlite:///db.bellybutton.sqlite")
+#engine = create_engine("sqlite:///db.bellybutton.sqlite")
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
@@ -33,7 +33,7 @@ Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
 
 # Create our session (link) from Python to the DB
-session = Session(engine)
+#session = Session(engine)
 
 #################################################
 # Flask Routes
@@ -111,4 +111,4 @@ def samples(sample):
 
 
 if __name__ == "__main__":
-    app.run(debug=true)
+    app.run()
