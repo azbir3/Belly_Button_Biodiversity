@@ -4,5 +4,5 @@ Built an interactive dashboard using Flask API to explore the Belly Button Biodi
 
 Deployed in heroku - https://belly-button1-app.herokuapp.com/
 
-(Images/2019-11-14 (0).jpg)
-(Images/2019-11-14 (1).jpg)
+![picture](Images/2019-11-14 (0).png)
+![picture](Images/2019-11-14 (1).png)
